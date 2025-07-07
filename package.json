@@ -1,0 +1,25 @@
+{
+  "name": "week-6-test-debug-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --prefix client && npm install --prefix server",
+    "test": "npm test --prefix client && npm test --prefix server",
+    "test:unit": "npm test --prefix client",
+    "test:integration": "npm test --prefix server",
+    "test:e2e": "cypress run --project client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.3+sha512.467df2c586056165580ad6dfb54ceaad94c5a30f80893ebdec5a44c5aa73c205ae4a5bb9d5ed6bb84ea7c249ece786642bbb49d06a307df218d03da41c317417",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
